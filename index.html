@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/png" href="Images/Favicon.png"/>
         <title>
             Lorenzo Vitali Game Design Portfolio
         </title>
@@ -27,31 +28,83 @@
         </style>
     </head>
     <body>
-        <a href="#contactFooter">Contact</a>
-        <h1>Heading 1</h1>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero hic corrupti beatae in perferendis totam ad mollitia quae enim sequi quam, ipsam illo natus deserunt inventore blanditiis facilis quas veritatis!</p>
-        <h2>Heading 2</h2>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores, nesciunt fugiat quasi rem itaque vero recusandae facilis odit sed! Excepturi, voluptate numquam soluta aspernatur nemo vero doloremque voluptates culpa reiciendis.</p>
-        <h3>Heading 3</h3>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero culpa ab ad itaque voluptas dolorem similique, cumque perferendis excepturi dicta commodi exercitationem doloribus maxime dolore repellat voluptatum aliquid facere nulla!</p>
-        <h4><strong>Heading 4(this one's strong)</strong></h4>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident similique, voluptates veniam id adipisci obcaecati illum tenetur. Dolores nemo, voluptates id itaque iusto necessitatibus praesentium neque inventore repellat numquam suscipit.</p>
-        <h5>Heading 5</h5>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium voluptatibus beatae ducimus officiis fugit quod explicabo inventore optio dicta minus odio, a consequuntur repellat maxime aperiam labore, iusto, blanditiis praesentium.</p>
-        <h6>Heading 6</h6>
-        <a href="about.html">
-            <img src="Images/Background.png" alt="Background"/>
-        </a>
-        <a href="Downloadables/CV_LorenzoVitali.pdf" download>
-            Download CV
-            <img src="Images/CV_LorenzoVitali.png" alt="CV_LorenzoVitali"/>
-        </a>
-        <p class="username">this text is about <em>me</em>, hi c:</p>
-        <p>this text is also about <em>me</em>, hello :></p>
-        <div class="footer" id="contactFooter">
-            <h2>Contact Info:</h2>
-            <a href="mailto:02lorenzo.vit@gmail.com">02lorenzo.vit@gmail.com</a>
-            <a href="https://vit-c.itch.io" title="Itch Profile">Itch</a>
-        </div>
+        <header>
+            <h1>Lorenzo Vitali</h1>
+            <h2>Game Designer</h2>
+            <a href="about.html">About</a>
+            <a href="#contactFooter">Contact</a>
+        </header>
+        
+        <main style="background-image: url(/Images/Background.png);">
+            <h1>Heading 1</h1>
+                <video width=70% controls>
+                    <source src="Videos/Adblocker_Short.mp4" type="video/mp4">
+                    <!-- BACKUP FILE <source src="Videos/Adblocker_Short.webm" type="video/webm"> -->
+                </video>
+                <p><span style="background-color: blueviolet;">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</span> Vero hic corrupti beatae in perferendis totam ad mollitia quae enim sequi quam, ipsam illo natus deserunt inventore blanditiis facilis quas veritatis!</p>
+                <div style="background-color: blue;">
+                    <h2>Heading 2</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores, nesciunt fugiat quasi rem itaque vero recusandae facilis odit sed! Excepturi, voluptate numquam soluta aspernatur nemo vero doloremque voluptates culpa reiciendis.</p>
+                </div>
+
+            <h3>Heading 3</h3>
+                <ol style="background-color: aqua;">
+                    <li>punto 1</li>
+                    <li>punto 2</li>
+                    <li>punto 3</li>
+                    <li>punto 4</li>
+                    <ul>
+                        <li>punto a</li>
+                        <li>punto b</li>
+                        <li>punto c</li>
+                    </ul>
+                    <dl>
+                        <dt>nome 1</dt>
+                        <dd>spiegone 1 blablabla</dd>
+                        <dt>nome 2</dt>
+                        <dd>spiegone 2 blebleble</dd>
+                    </dl>
+                </ol>
+
+            <h4><strong>Heading 4(this one's strong)</strong></h4>
+                <table border="1" style="background-color: blue;">
+                    <tr style="background-color: blueviolet">
+                        <th>Colonna 1</th>
+                        <th>Colonna 2</th>
+                        <th>Colonna 3</th>
+                        <th>Colonna 4</th>
+                    </tr>
+                    <tr align="center" style="background-color: aqua;">
+                        <td>Dato 1</td>
+                        <td>Dato 2</td>
+                        <td>Dato 3</td>
+                        <td>Dato 4</td>
+                    </tr>
+                </table>
+
+            <h5>Heading 5</h5>
+                <a href="about.html">
+                    <button style="font-size: 25px; background-color: fuchsia; color: aqua; border-radius: 25px;">Clicky here</button>
+                </a>
+
+            <h6>Heading 6</h6>
+                <a href="about.html">
+                    <img src="Images/Background.png" alt="Background"/>
+                </a>
+                <a href="Downloadables/CV_LorenzoVitali.pdf" download>
+                    Download CV
+                    <img src="Images/CV_LorenzoVitali.png" alt="CV_LorenzoVitali"/>
+                </a>
+                <p class="username">this text is about <em>me</em>, hi c:</p>
+                <p>this text is also about <em>me</em>, hello :></p>
+        </main>
+
+        <footer>
+            <div class="footer" id="contactFooter">
+                <h2>Contact Info:</h2>
+                <a href="mailto:02lorenzo.vit@gmail.com">02lorenzo.vit@gmail.com</a>
+                <a href="https://vit-c.itch.io" title="Itch Profile">Itch</a>
+            </div>
+        </footer>
     </body>
 </html>
