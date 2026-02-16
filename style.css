@@ -35,6 +35,8 @@ body{
     overflow: auto;
 
     margin: 0px;
+    min-height: 100vh;
+    min-width: 100vh;
 }
 
 .navHeader{
@@ -66,41 +68,14 @@ body{
     font-size: 5vh;
 }
 
-.navbar ul{
-    list-style-type: none;
-    background-color: blue;
-    padding: 0px;
-    margin: 0px;
-    overflow: hidden;
-}
-.navbar li{
-    float: left;
-    width: 25%;
-    height: 4vh;
-    font-size: 3vh;
-    text-align: center;
-}
-.navbar li:hover{
-    background-color: rgb(80, 80, 255);
-}
-.navbar li:hover > a{
-    color: yellow;
-}
-.navbar li:active{
-    background-color: aqua;
-}
-.navbar li:active > a{
-    color: fuchsia;
-}
-
 .projectTitle
 {
     background-color: #222034;
 
     position:static;
-    margin: 0% 0 0% 0;
+    margin: 0% 25% 0% 25%;
   
-    width: 100%;
+    width: 50%;
     height: 10%;
   
     text-align: center;
@@ -108,6 +83,68 @@ body{
     color: white;
     font-size: 4vh;
 }
+.projectTitle > h1{
+    margin: 0% 0 0% 0;
+    margin: 0;
+    color: #ffd966;
+}
+.projectTitle > h2{
+    margin: 0;
+    color: white;
+}
+
+.navLinks
+{
+  right: 0;
+  text-align: center;
+}
+
+.navButton
+{
+  padding: 0.7% 1% 1% 1%;
+  margin: 0 0.7% 0 0.7%;
+
+  min-width: 20%; 
+  max-width: 20%;
+  height: 5%;
+  
+  text-align: center;
+  display: inline-block;
+
+  background-color: blue;
+
+  font-size: 30px;
+}
+
+.navButton:hover
+{
+  background-color: rgb(80, 80, 255);
+  color: yellow;
+}
+
+.navButton>a
+{
+  padding: 0;
+  margin: 0 0 1.5% 0;
+  
+  display: block;
+  height: 100%;
+  width: 100%;
+  
+  
+  text-align: center;
+
+  color: white;
+  font-size: 3vh;
+  text-decoration: none;
+}
+
+.navButton:active
+{
+    background-color: aqua;
+    color: fuchsia;
+}
+
 
 
 
@@ -141,6 +178,7 @@ strong{
     margin-top: 10%;
 
     align-content: baseline;
+    text-align: center;
     position: static;
     bottom: 0px;
     width: 100%;
