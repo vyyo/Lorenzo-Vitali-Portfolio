@@ -7,6 +7,19 @@
     font-family: Silkscreen-Bold;
 }
 
+@media screen and (prefers-reduced-motion: reduce){
+    html{
+        scroll-behavior: auto;
+    }
+}
+
+html{
+    min-height: 100vh;
+    min-width: 100vh;
+
+    scroll-behavior: smooth;
+}
+
 body{
     font-family: Silkscreen-Regular;
 
