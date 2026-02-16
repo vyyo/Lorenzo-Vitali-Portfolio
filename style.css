@@ -7,26 +7,20 @@
     font-family: Silkscreen-Bold;
 }
 
-html{
-    height: 100%;
-    min-height: 100%;
-}
 body{
     font-family: Silkscreen-Regular;
+
+    background-image: url(/Images/CV_LorenzoVitali.png);
+    background-repeat: repeat;
+    background-position: fixed;
+    background-attachment: fixed;
+    background-size: fixed;
 
     color: white;
     display: flow-root;
     overflow: auto;
 
     margin: 0px;
-
-    background-image: url(/Images/Background.jpg);
-    height:100%;
-    width:100%;
-    background-size:cover;
-    background-repeat:no-repeat;
-    background-position: center center;
-    background-attachment:fixed;
 }
 
 .navHeader{
