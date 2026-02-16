@@ -9,20 +9,16 @@
 
 body{
     font-family: Silkscreen-Regular;
-    height: auto;
-    width: 100%;
-    background: url(/Images/Background.png) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    position: fixed;
-    top: 0;
-    z-index: -1;
+
+    background-image: url(/Images/Background.jpg);
+    background-repeat: repeat;
+    background-position: fixed;
+    background-attachment: fixed;
+    background-size: fixed;
 
     color: white;
     display: flow-root;
-    overflow:scroll;
+    overflow: auto;
 
     margin: 0px;
 }
