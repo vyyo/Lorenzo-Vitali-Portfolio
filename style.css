@@ -10,7 +10,8 @@
 body{
     font-family: Silkscreen-Regular;
 
-    background-image: #503c7e url(/Images/Background.png);
+    background-color: #503c7e;
+    background-image: url(/Images/Background.png);
     background-repeat: repeat;
     background-position: fixed;
     background-attachment: fixed;
