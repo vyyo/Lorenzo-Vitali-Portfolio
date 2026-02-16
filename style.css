@@ -14,8 +14,6 @@ html{
 body{
     font-family: Silkscreen-Regular;
 
-    min-height: 100%;
-
     color: white;
     display: flow-root;
     overflow: auto;
@@ -23,10 +21,12 @@ body{
     margin: 0px;
 
     background-image: url(/Images/Background.jpg);
-    background-repeat: no-repeat;
-    background-position: fixed;
-    background-size: fixed;
-    background-attachment: fixed;
+    height:100%;
+    width:100%;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-attachment:fixed;
 }
 
 .navHeader{
