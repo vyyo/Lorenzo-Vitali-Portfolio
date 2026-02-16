@@ -1,0 +1,159 @@
+@font-face {
+    src: url(Fonts/Silkscreen/Silkscreen-Regular.ttf);
+    font-family: Silkscreen-Regular;
+}
+@font-face {
+    src: url(Fonts/Silkscreen/Silkscreen-Bold.ttf);
+    font-family: Silkscreen-Bold;
+}
+
+body{
+    font-family: Silkscreen-Regular;
+
+    background-image: url(/Images/Background.png);
+    background-repeat: repeat;
+    background-position: fixed;
+    background-attachment: fixed;
+    background-size: fixed;
+
+    color: white;
+    display: flow-root;
+    overflow: auto;
+
+    margin: 0px;
+}
+
+.navHeader{
+    background-color: #222034;
+
+    position:static;
+    
+    margin-left:0;
+    margin-bottom:0;
+    margin-top: 0;
+
+    text-align: center;
+
+    height: 20%;
+    overflow: hidden;
+}
+.navHeader > h1{
+    margin: 1% 0 0.5% 2%;
+    padding: 0;
+
+    color: #ffd966;
+    font-size: 8vh;
+}
+.navHeader > h2{
+    margin: 0.5% 0 0 2%;
+    padding:0% 0% 2% 0%;
+
+    color: white;
+    font-size: 5vh;
+}
+
+.navbar ul{
+    list-style-type: none;
+    background-color: blue;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar li{
+    float: left;
+    width: 25%;
+    height: 4vh;
+    font-size: 3vh;
+    text-align: center;
+}
+.navbar li:hover{
+    background-color: rgb(80, 80, 255);
+}
+.navbar li:hover > a{
+    color: yellow;
+}
+.navbar li:active{
+    background-color: aqua;
+}
+.navbar li:active > a{
+    color: fuchsia;
+}
+
+.projectTitle
+{
+    background-color: #222034;
+
+    position:static;
+    margin: 0% 0 0% 0;
+  
+    width: 100%;
+    height: 10%;
+  
+    text-align: center;
+
+    color: white;
+    font-size: 4vh;
+}
+
+
+
+img{
+    width: 100px;
+    border-radius: 10px;
+    float: left;
+    margin-right: 10px;
+}
+
+p.username{
+    font-weight: bold;
+}
+
+em{
+    color: hsl(280, 31%, 42%);
+    font-style: normal;
+}
+
+strong{
+    color: #0000ff;
+    font-style: italic;
+}
+
+.footer{
+    border-style: solid;
+    border-width: 0px;
+    border-top-width: 3px;
+    border-color: black;
+
+    margin-top: 10%;
+
+    align-content: baseline;
+    position: static;
+    bottom: 0px;
+    width: 100%;
+    color: rgb(0,0,255)
+}
+
+button{
+    font-size: 90%;
+    background-color: fuchsia;
+    color: aqua;
+    border-radius: 25px;
+    
+    width: 10%;
+    height: 5%;
+
+    display: inline-block;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: yellow;
+    text-decoration: none;
+}
+a:active{
+    color: fuchsia;
+    text-decoration: none;
+}
