@@ -7,20 +7,26 @@
     font-family: Silkscreen-Bold;
 }
 
+html{
+    height: 100%;
+    min-height: 100%;
+}
 body{
     font-family: Silkscreen-Regular;
 
-    background-image: url(/Images/Background.jpg);
-    background-repeat: no-repeat;
-    background-position: fixed;
-    background-attachment: fixed;
-    background-size: fixed;
+    min-height: 100%;
 
     color: white;
     display: flow-root;
     overflow: auto;
 
     margin: 0px;
+
+    background-image: url(/Images/Background.jpg);
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: fixed;
+    background-attachment: fixed;
 }
 
 .navHeader{
