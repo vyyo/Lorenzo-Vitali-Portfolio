@@ -24,7 +24,6 @@ body{
     font-family: Silkscreen-Regular;
 
     background-color: #503c7e;
-    background-image: url(/Images/Background.png);
     background-repeat: repeat;
     background-position: fixed;
     background-attachment: fixed;
@@ -146,14 +145,16 @@ body{
 }
 
 
+.customBG{
+    z-index: -1;
+}
 
-
-img{
+/*img{
     width: 100px;
     border-radius: 10px;
     float: left;
     margin-right: 10px;
-}
+}*/
 
 p.username{
     font-weight: bold;
