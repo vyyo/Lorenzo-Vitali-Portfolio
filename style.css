@@ -13,90 +13,69 @@
     }
 }
 
-html{
-    min-height: 100vh;
-    min-width: 100vh;
 
-    scroll-behavior: smooth;
-}
 
-body{
-    font-family: Silkscreen-Regular;
+/* START OF NAVIGATION HTML AND BODY STYLE */
 
-    background-color: #503c7e;
+    html{
+        min-height: 100vh;
+        min-width: 100vh;
 
-    color: white;
-    display: flow-root;
-    overflow: auto;
+        scroll-behavior: smooth;
+    }
 
-    margin: 0px;
-    min-height: 100vh;
-    min-width: 100vh;
-}
+    body{
+        font-family: Silkscreen-Regular;
 
-.navHeader{
-    background-color: #222034;
+        background-color: #503c7e;
 
-    position:static;
-    
-    margin-left:0;
-    margin-bottom:0;
-    margin-top: 0;
+        color: white;
+        display: flow-root;
+        overflow: auto;
 
-    text-align: center;
+        margin: 0px;
+        min-height: 100vh;
+        min-width: 100vh;
+    }
 
-    height: 20%;
-    overflow: hidden;
-}
-.navHeader > h1{
-    margin: 1% 0 0.5% 2%;
-    padding: 0;
+/* END OF NAVIGATION HTML AND BODY STYLE */
 
-    color: #ffd966;
-    font-size: 8vh;
-}
-.navHeader > h2{
-    margin: 0.5% 0 0 2%;
-    padding:0% 0% 2% 0%;
 
-    color: white;
-    font-size: 5vh;
-}
 
-/* START OF PROJECT TYTLE(AND BUTTONS) STYLE */
+/* START OF NAVIGATION HEADER STYLE */
 
-    .projectTitle
-    {
-        background-color: rgba(34,32,52,0.8);
+    .navHeader{
+        background-color: #222034;
 
         position:static;
-        margin: 0% 25% 0% 25%;
-    
-        width: 50%;
-        height: 10%;
-    
+        
+        margin-left:0;
+        margin-bottom:0;
+        margin-top: 0;
+
         text-align: center;
 
-        color: white;
-        font-size: 4vh;
+        height: 20%;
+        overflow: hidden;
     }
-    .projectTitle > h1{
-        margin: 0% 0 0% 0;
-        margin: 0;
+    .navHeader > h1{
+        margin: 1% 0 0.5% 2%;
+        padding: 0;
+
         color: #ffd966;
+        font-size: 8vh;
     }
-    .projectTitle > h2{
-        margin: 0;
+    .navHeader > h2{
+        margin: 0.5% 0 0 2%;
+        padding:0% 0% 2% 0%;
+
         color: white;
+        font-size: 5vh;
     }
 
-    .projLinks
-    {
-        right: 0;
-        text-align: center;
-    }
+/* END OF NAVIGATION HEADER STYLE */
 
-/* END OF PROJECT TYTLE(AND BUTTONS) STYLE */
+
 
 /* START OF NAVIGATION BUTTONS STYLE */
 
@@ -157,6 +136,96 @@ body{
 
 /* END OF NAVIGATION BUTTONS STYLE */
 
+
+
+/* START OF PROJECT TYTLE(AND BUTTONS) STYLE */
+
+    .projectTitle
+    {
+        background-color: rgba(34,32,52,0.8);
+
+        position:static;
+        margin: 0% 25% 0% 25%;
+    
+        width: 50%;
+        height: 10%;
+    
+        text-align: center;
+
+        color: white;
+        font-size: 4vh;
+    }
+    .projectTitle > h1{
+        margin: 0% 0 0% 0;
+        margin: 0;
+        color: #ffd966;
+    }
+    .projectTitle > h2{
+        margin: 0;
+        color: white;
+    }
+
+    .projLinks
+    {
+        right: 0;
+        text-align: center;
+    }
+
+/* END OF PROJECT TYTLE(AND BUTTONS) STYLE */
+
+
+
+/* START OF FOOTER STYLE */
+
+    .footer{
+        border-style: solid;
+        border-width: 0px;
+        border-top-width: 3px;
+        border-color: black;
+
+        margin-top: 10%;
+
+        align-content: baseline;
+        text-align: center;
+        position: static;
+        bottom: 0px;
+        width: 100%;
+        color: rgb(0,0,255)
+    }
+
+/* END OF FOOTER STYLE */
+
+
+
+/* START OF GENERIC LINKS AND BUTTONS STYLE */
+
+    button{
+        font-size: 90%;
+        background-color: fuchsia;
+        color: aqua;
+        border-radius: 25px;
+        
+        width: 10%;
+        height: 5%;
+
+        display: inline-block;
+    }
+
+    a{
+        color: white;
+        text-decoration: none;
+    }
+    a:hover{
+        color: yellow;
+        text-decoration: none;
+    }
+    a:active{
+        color: fuchsia;
+        text-decoration: none;
+    }
+
+/* END OF GENERIC LINKS AND BUTTONS STYLE */
+
 img{
     width: 100px;
     border-radius: 10px;
@@ -176,45 +245,4 @@ em{
 strong{
     color: #0000ff;
     font-style: italic;
-}
-
-.footer{
-    border-style: solid;
-    border-width: 0px;
-    border-top-width: 3px;
-    border-color: black;
-
-    margin-top: 10%;
-
-    align-content: baseline;
-    text-align: center;
-    position: static;
-    bottom: 0px;
-    width: 100%;
-    color: rgb(0,0,255)
-}
-
-button{
-    font-size: 90%;
-    background-color: fuchsia;
-    color: aqua;
-    border-radius: 25px;
-    
-    width: 10%;
-    height: 5%;
-
-    display: inline-block;
-}
-
-a{
-    color: white;
-    text-decoration: none;
-}
-a:hover{
-    color: yellow;
-    text-decoration: none;
-}
-a:active{
-    color: fuchsia;
-    text-decoration: none;
 }
