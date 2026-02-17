@@ -24,10 +24,6 @@ body{
     font-family: Silkscreen-Regular;
 
     background-color: #503c7e;
-    background-repeat: repeat;
-    background-position: fixed;
-    background-attachment: fixed;
-    background-size: fixed;
 
     color: white;
     display: flow-root;
@@ -144,10 +140,6 @@ body{
     color: fuchsia;
 }
 
-
-.customBG{
-    z-index:-100;
-}
 
 /*img{
     width: 100px;
