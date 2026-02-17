@@ -63,90 +63,106 @@ body{
     font-size: 5vh;
 }
 
-.projectTitle
-{
-    background-color: #222034;
+/* START OF PROJECT TYTLE(AND BUTTONS) STYLE */
 
-    position:static;
-    margin: 0% 25% 0% 25%;
-  
-    width: 50%;
-    height: 10%;
-  
-    text-align: center;
+    .projectTitle
+    {
+        background-color: rgba(34,32,52,0.8);
 
-    color: white;
-    font-size: 4vh;
-}
-.projectTitle > h1{
-    margin: 0% 0 0% 0;
-    margin: 0;
-    color: #ffd966;
-}
-.projectTitle > h2{
-    margin: 0;
-    color: white;
-}
+        position:static;
+        margin: 0% 25% 0% 25%;
+    
+        width: 50%;
+        height: 10%;
+    
+        text-align: center;
 
-.navLinks
-{
-  right: 0;
-  text-align: center;
-}
+        color: white;
+        font-size: 4vh;
+    }
+    .projectTitle > h1{
+        margin: 0% 0 0% 0;
+        margin: 0;
+        color: #ffd966;
+    }
+    .projectTitle > h2{
+        margin: 0;
+        color: white;
+    }
 
-.navButton
-{
-  padding: 0.7% 1% 1% 1%;
-  margin: 0 0.7% 0 0.7%;
+    .projLinks
+    {
+        right: 0;
+        text-align: center;
+    }
 
-  min-width: 20%; 
-  max-width: 20%;
-  height: 5%;
-  
-  text-align: center;
-  display: inline-block;
+/* END OF PROJECT TYTLE(AND BUTTONS) STYLE */
 
-  background-color: blue;
+/* START OF NAVIGATION BUTTONS STYLE */
 
-  font-size: 30px;
-}
+    .navLinks
+    {
+        right: 0;
+        text-align: center;
+        position: sticky;
+        top: 0px;
+        background-color: #222034;
+    }
 
-.navButton:hover
-{
-  background-color: rgb(80, 80, 255);
-  color: yellow;
-}
+    .navButton
+    {
+        padding: 0.7% 1% 1% 1%;
+        margin: 0 0.7% 0 0.7%;
 
-.navButton>a
-{
-  padding: 0;
-  margin: 0 0 1.5% 0;
-  
-  display: block;
-  height: 100%;
-  width: 100%;
-  
-  
-  text-align: center;
+        min-width: 20%; 
+        max-width: 20%;
+        height: 5%;
+        
+        text-align: center;
+        display: inline-block;
 
-  color: white;
-  font-size: 3vh;
-  text-decoration: none;
-}
+        background-color: blue;
 
-.navButton:active
-{
-    background-color: aqua;
-    color: fuchsia;
-}
+        font-size: 30px;
+    }
 
+    .navButton:hover
+    {
+        background-color: rgb(80, 80, 255);
+        color: yellow;
+    }
 
-/*img{
+    .navButton>a
+    {
+        padding: 0;
+        margin: 0 0 1.5% 0;
+        
+        display: block;
+        height: 100%;
+        width: 100%;
+        
+        
+        text-align: center;
+
+        color: white;
+        font-size: 3vh;
+        text-decoration: none;
+    }
+
+    .navButton:active
+    {
+        background-color: aqua;
+        color: fuchsia;
+    }
+
+/* END OF NAVIGATION BUTTONS STYLE */
+
+img{
     width: 100px;
     border-radius: 10px;
     float: left;
     margin-right: 10px;
-}*/
+}
 
 p.username{
     font-weight: bold;
