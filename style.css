@@ -175,6 +175,69 @@
 
 
 
+/* START OF OVERVIEW STYLE */
+
+    .overview{
+        display: flex;
+        position:static;
+        margin-left: 7.5%;
+        margin-right: 7.5%;
+
+        font-size: 4vh;
+    }
+
+    .overviewText
+    {
+        position: relative;
+        text-align: center;
+        background-color: rgba(34,32,52,0.8);
+    }
+
+/* END OF OVERVIEW STYLE */
+
+
+
+/* START OF ANALYSYS STYLE */
+
+    .analysys{
+        display: flex;
+        position:static;
+        margin-left: 7.5%;
+        margin-right: 7.5%;
+
+        font-size: 4vh;
+    }
+
+    .analysysImage
+    {
+        flex: 1;
+        flex-basis: 50%;
+        flex-shrink: 0;
+        position: relative;
+        text-align: center;
+        background-color: rgba(34,32,52,0.8);
+    }
+    .analysysImage
+    {
+        flex: 1;
+        position: relative;
+    }
+    .analysysImage >img
+    {
+        /*margin-left: 5%;
+        width: 35%;*/
+        height: 100%;
+        position: absolute;
+
+        border-style: solid;
+        border-color: black;
+        border-width: 5px;
+    }
+
+/* END OF ANALYSYS STYLE */
+
+
+
 /* START OF FOOTER STYLE */
 
     .footer{
@@ -226,12 +289,7 @@
 
 /* END OF GENERIC LINKS AND BUTTONS STYLE */
 
-img{
-    width: 100px;
-    border-radius: 10px;
-    float: left;
-    margin-right: 10px;
-}
+
 
 p.username{
     font-weight: bold;
