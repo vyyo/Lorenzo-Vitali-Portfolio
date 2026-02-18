@@ -87,10 +87,13 @@
         position: sticky;
         top: 0px;
         background-color: #222034;
+        padding-bottom: 1%;
     }
 
     .navButton
     {
+        background-image: url(Images/Button.png);
+        background-size:cover;
         padding: 0.7% 1% 1% 1%;
         margin: 0 0.7% 0 0.7%;
 
@@ -101,21 +104,18 @@
         text-align: center;
         display: inline-block;
 
-        background-color: blue;
-
         font-size: 30px;
     }
 
     .navButton:hover
     {
-        background-color: rgb(80, 80, 255);
-        color: yellow;
+        background-image: url(Images/ButtonHover.png);
     }
 
     .navButton>a
     {
-        padding: 0;
-        margin: 0 0 1.5% 0;
+        padding: 0.7% 1% 1% 1%;
+        margin: -0.7% -1% -1% -1%;;
         
         display: block;
         height: 100%;
@@ -131,8 +131,7 @@
 
     .navButton:active
     {
-        background-color: aqua;
-        color: fuchsia;
+        background-image: url(Images/ButtonSelected.png);
     }
 
 /* END OF NAVIGATION BUTTONS STYLE */
@@ -422,14 +421,17 @@
 /* START OF GENERIC LINKS AND BUTTONS STYLE */
 
     button{
+        background-image: url(Images/Button.png);
+        background-size: contain;
         font-size: 90%;
-        background-color: fuchsia;
+        background-color: transparent;
+        background-repeat: no-repeat;
+        border: none;
+        cursor: pointer;
+        overflow: hidden;
+        outline: none;
         color: aqua;
-        border-radius: 25px;
         
-        width: 10%;
-        height: 5%;
-
         display: inline-block;
     }
 
@@ -442,7 +444,7 @@
         text-decoration: none;
     }
     a:active{
-        color: fuchsia;
+        color: white;
         text-decoration: none;
     }
 
