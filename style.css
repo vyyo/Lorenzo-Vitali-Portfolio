@@ -226,12 +226,45 @@
         height: 5vh;
     }
 
-    .flexBreakColumn{
-    flex-basis: 100%;
-    width: 5vh;
+    .flexBreakColumn
+    {
+        flex-basis: 100;
+        width: 1vh;
     }
 
 /* END OF FLEXBOX UTILITIES*/
+
+
+
+/* START OF STATS STYLE */
+
+    .stats
+    {
+        /*border: #222034;
+        border-width: 3px;
+        border-style: solid;*/
+
+        display: flex;
+        flex-wrap: nowrap;
+
+        flex-direction: row;
+        align-items: center;
+        gap: 2.5%;
+
+        font-size: 4vh;
+    }
+    .statsText
+    {
+        /*border: #29a022;
+        border-width: 3px;
+        border-style: solid;*/
+        max-width: 21.25%;
+
+        text-align: center;
+        background-color: rgba(34,32,52,0.8);
+    }
+
+/* END OF STATS STYLE */
 
 
 
