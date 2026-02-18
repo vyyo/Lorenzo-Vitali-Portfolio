@@ -93,7 +93,7 @@
     .navButton
     {
         background-image: url(Images/Button.png);
-        background-size:100% 100%;
+        background-size:cover;
         padding: 0.7% 1% 1% 1%;
         margin: 0 0.7% 0 0.7%;
 
