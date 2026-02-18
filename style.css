@@ -463,6 +463,91 @@
 
 
 
+/* START OF PORTFOLIO STYLE */
+
+    .portfolio
+    {
+        border: #222034;
+        border-width: 3px;
+        border-style: solid;
+
+        display: flex;
+        flex-wrap: nowrap;
+
+        flex-direction: row;
+        justify-content:space-between;
+        align-items: center;
+        gap: 2.5%;
+
+        font-size: 4vh;
+    }
+
+    .portfolioText
+    {
+        border: #29a022;
+        border-width: 3px;
+        border-style: solid;
+        max-width: 100%;
+
+        text-align: center;
+        background-color: rgba(34,32,52,0.8);
+    }
+    .portfolioText >h1
+    {
+        color: #ffd966;
+        margin-top: 2.5%;
+        margin-bottom: 1.25%;
+        font-size: 4vh;
+    }
+    .portfolioText >h2
+    {
+        margin-top: 1.25%;
+        margin-bottom: 2.5%;
+        font-size: 3vh;
+    }
+
+    .portfolioBox
+    {
+        border: #a0601c;
+        border-width: 3px;
+        border-style: solid;
+        
+        flex-direction: column;
+        justify-content: center;
+        width: 30%;
+        max-width: 30%;
+        display: flex;
+    }
+
+    .portfolioImage
+    {
+        border: #1c8aa0;
+        border-width: 3px;
+        border-style: solid;
+        
+        max-width: 100%;
+        display: flex;
+    }
+    .portfolioImage >a
+    {
+        max-width: 98.75%;
+        height: auto;
+    }
+    .portfolioImage >a>img
+    {
+        border: #a01c6d;
+        border-width: 3px;
+        border-style: solid;
+
+        display: flex;
+        max-width: 100%;
+        height: auto;
+    }
+
+/* END OF PORTFOLIO STYLE */
+
+
+
 /* START OF GENERIC LINKS AND BUTTONS STYLE */
 
     button{
