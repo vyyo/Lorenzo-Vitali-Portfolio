@@ -93,7 +93,9 @@
     .navButton
     {
         background-image: url(Images/Button.png);
-        background-size:cover;
+        background-size:contain;
+        background-repeat: no-repeat;
+        background-position: center;
         padding: 0.7% 1% 1% 1%;
         margin: 0 0.7% 0 0.7%;
 
@@ -110,6 +112,9 @@
     .navButton:hover
     {
         background-image: url(Images/ButtonHover.png);
+        background-size:contain;
+        background-repeat: no-repeat;
+        background-position: center;
     }
 
     .navButton>a
@@ -132,6 +137,9 @@
     .navButton:active
     {
         background-image: url(Images/ButtonSelected.png);
+        background-size:contain;
+        background-repeat: no-repeat;
+        background-position: center;
     }
 
 /* END OF NAVIGATION BUTTONS STYLE */
