@@ -452,6 +452,7 @@
         border-top-width: 3px;
         border-color: black;
 
+        margin-top: 5vh;
         padding-top: 2%;
         padding-bottom: 2%;
 
@@ -468,14 +469,49 @@
     }
     .footer >h1
     {
-        margin: 0 0 0.5% 2%;
+        margin: 0 0 0.5% 0%;
         padding: 0;
     }
     .footer >h2
     {
-        margin: 0.5% 0 0 2%;
+        margin: 0.5% 0 0.5% 0%;
         padding: 0;
         font-size: 4vh;
+    }
+    .footer >h2 >a:active
+    {
+        color: #ffd966;
+        text-decoration: none;
+    }
+
+    .footerIconItch >img
+    {
+        height: 7.5vh;
+        padding-left: 0.5%;
+        padding-right: 0.5%;
+        background-image: url(Images/Icon_Itch.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    }
+    .footerIconItch:hover >img
+    {
+        background-image: url(Images/Icon_ItchHover.png);
+    }
+
+    .footerIconLinkedIn >img
+    {
+        height: 7.5vh;
+        padding-left: 0.5%;
+        padding-right: 0.5%;
+        background-image: url(Images/Icon_LinkedIn.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    }
+    .footerIconLinkedIn:hover >img
+    {
+        background-image: url(Images/Icon_LinkedInHover.png);
     }
 
 /* END OF FOOTER STYLE */
