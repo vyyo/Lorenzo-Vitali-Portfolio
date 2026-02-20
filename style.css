@@ -358,6 +358,9 @@
         border-style: solid;
         max-width: 47.5%;
 
+        padding-top: 0.5%;
+        padding-bottom: 0.5%;
+
         text-align: center;
         background-color: rgba(34,32,52,0.8);
     }
