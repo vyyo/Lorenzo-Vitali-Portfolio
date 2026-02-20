@@ -628,7 +628,7 @@
         border-style: solid;
         
         flex-direction: column;
-        justify-content: center;
+        align-self: flex-start;
         width: 30%;
         max-width: 30%;
         display: flex;
