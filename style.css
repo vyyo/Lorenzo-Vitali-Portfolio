@@ -644,7 +644,7 @@
     }
     .portfolioText >.portfolioA
     {
-        max-width: 98.75%;
+        max-width: 100%;
         display: block;
         height: auto;
     }
@@ -707,9 +707,9 @@
     }
     .portfolioImage >.portfolioA>img
     {
-        border: #a01c6d;
+        /*border: #1ca088;
         border-width: 3px;
-        border-style: solid;
+        border-style: solid;*/
 
         display: flex;
         max-width: 100%;
