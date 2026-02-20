@@ -6,6 +6,10 @@
     src: url(Fonts/Silkscreen/Silkscreen-Bold.ttf);
     font-family: Silkscreen-Bold;
 }
+@font-face {
+    src: url(Fonts/Roboto,Roboto_Mono,Silkscreen/Roboto_Mono/static/RobotoMono-Bold.ttf);
+    font-family: "Roboto Mono";
+}
 
 @media screen and (prefers-reduced-motion: reduce){
     html{
@@ -266,6 +270,7 @@
         gap: 1%;
 
         font-size: clamp(1.33rem, 1.059rem + 1.35vw, 2.075rem);
+        font-family: "Roboto Mono";
     }
     
     .statsText
@@ -308,6 +313,7 @@
         margin-right: 7.5%;*/
 
         font-size: clamp(1.33rem, 1.059rem + 1.35vw, 2.075rem);
+        font-family: "Roboto Mono";
     }
 
     .overviewText
@@ -338,6 +344,7 @@
         gap: 2.5%;
 
         font-size: clamp(1.33rem, 1.059rem + 1.35vw, 2.075rem);
+        font-family: "Roboto Mono";
     }
 
     .analysisText
