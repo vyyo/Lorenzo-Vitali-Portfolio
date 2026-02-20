@@ -258,13 +258,12 @@
         border-style: solid;*/
 
         display: flex;
-        flex-wrap: nowrap;
 
         flex-direction: row;
         align-items:center;
         gap: 1%;
 
-        font-size: 4vh;
+        font-size: clamp(1.33rem, 1.059rem + 1.35vw, 2.075rem);
     }
     
     .statsText
@@ -286,7 +285,7 @@
     }
     .statsText >img
     {
-        height: 100%;
+        height: clamp(3rem, 2.273rem + 3.64vw, 5rem);
         max-height: 100%;
     }
 
@@ -306,7 +305,7 @@
         margin-left: 7.5%;
         margin-right: 7.5%;*/
 
-        font-size: 4vh;
+        font-size: clamp(1.33rem, 1.059rem + 1.35vw, 2.075rem);
     }
 
     .overviewText
@@ -336,7 +335,7 @@
         align-items: center;
         gap: 2.5%;
 
-        font-size: 4vh;
+        font-size: clamp(1.33rem, 1.059rem + 1.35vw, 2.075rem);
     }
 
     .analysisText
@@ -355,7 +354,7 @@
         border-width: 3px;
         border-style: solid;*/
 
-        font-size: 6vh;
+        font-size: clamp(2rem, 1.636rem + 1.82vw, 3rem);
         color: #ffd966;
 
         justify-self: center;
@@ -600,7 +599,7 @@
         align-items: center;
         gap: 2.5%;
 
-        font-size: 4vh;
+        font-size: clamp(1.33rem, 1.059rem + 1.35vw, 2.075rem);
     }
 
     .portfolioText
@@ -618,13 +617,13 @@
         color: #ffd966;
         margin-top: 2.5%;
         margin-bottom: 1.25%;
-        font-size: 4vh;
+        font-size: clamp(1.33rem, 1.059rem + 1.35vw, 2.075rem);
     }
     .portfolioText >h2
     {
         margin-top: 1.25%;
         margin-bottom: 2.5%;
-        font-size: 3vh;
+        font-size: clamp(1.33rem, 1.248rem + 0.41vw, 1.556rem);
     }
     .portfolioImage:hover ~ .portfolioText
     {
