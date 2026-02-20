@@ -33,6 +33,8 @@
         display: flow-root;
         overflow: auto;
 
+        position: relative;
+
         margin: 0px;
         min-height: 100vh;
         min-width: 100vh;
