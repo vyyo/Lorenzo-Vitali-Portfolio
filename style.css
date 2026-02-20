@@ -615,6 +615,13 @@
         font-size: clamp(1.33rem, 1.059rem + 1.35vw, 2.075rem);
     }
 
+    .portfolioA
+    {
+        border: #ff0099;
+        border-width: 3px;
+        border-style: solid;
+    }
+
     .portfolioText
     {
         border: #29a022;
@@ -625,14 +632,20 @@
         text-align: center;
         background-color: rgba(34,32,52,0.8);
     }
-    .portfolioText >h1
+    .portfolioText >.portfolioA
+    {
+        max-width: 98.75%;
+        display: block;
+        height: auto;
+    }
+    .portfolioText >.portfolioA>h1
     {
         color: #ffd966;
         margin-top: 2.5%;
         margin-bottom: 1.25%;
         font-size: clamp(1.33rem, 1.059rem + 1.35vw, 2.075rem);
     }
-    .portfolioText >h2
+    .portfolioText >.portfolioA>h2
     {
         margin-top: 1.25%;
         margin-bottom: 2.5%;
@@ -640,9 +653,21 @@
     }
     .portfolioImage:hover ~ .portfolioText
     {
+        background-color: rgb(255,217,102,1);
+    }
+    .portfolioImage:hover ~ .portfolioText >.portfolioA>h1
+    {
+        color: white;
+    }
+    .portfolioText:has(.portfolioA:hover)
+    {
         background-color: rgba(255,217,102,1);
     }
-    .portfolioImage:hover ~ .portfolioText >h1
+    .portfolioText:has(.portfolioA:hover) .portfolioA>h1
+    {
+        color: white;
+    }
+    .portfolioText:has(.portfolioA:hover) .portfolioA>h2
     {
         color: white;
     }
@@ -670,12 +695,7 @@
         max-width: 100%;
         display: flex;
     }
-    .portfolioImage >a
-    {
-        max-width: 98.75%;
-        height: auto;
-    }
-    .portfolioImage >a>img
+    .portfolioImage >.portfolioA>img
     {
         border: #a01c6d;
         border-width: 3px;
