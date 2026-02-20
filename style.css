@@ -33,7 +33,7 @@
     }
 
     body{
-        font-family: Silkscreen-Regular;
+        font-family: Silkscreen-Regular, Arial, Papyrus;
 
         background-color: #503c7e;
 
@@ -274,7 +274,8 @@
         gap: 1%;
 
         font-size: clamp(1.33rem, 1.059rem + 1.35vw, 2.075rem);
-        font-family: Jersey-25;
+        font-family: Jersey-25, Arial, Papyrus;
+;
     }
     
     .statsText
@@ -317,7 +318,7 @@
         margin-right: 7.5%;*/
 
         font-size: clamp(1.33rem, 1.059rem + 1.35vw, 2.075rem);
-        font-family: Jersey-25;
+        font-family: Jersey-25, Arial, Papyrus;
     }
 
     .overviewText
@@ -348,7 +349,7 @@
         gap: 2.5%;
 
         font-size: clamp(1.33rem, 1.059rem + 1.35vw, 2.075rem);
-        font-family: Jersey-25;
+        font-family: Jersey-25, Arial, Papyrus;
     }
 
     .analysisText
