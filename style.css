@@ -366,6 +366,28 @@
         margin-bottom: 0;
     }
 
+    .analysisList
+    {
+        /*border: #dbdb29;
+        border-width: 3px;
+        border-style: solid;*/
+
+        color: white;
+
+        justify-self: center;
+        width: 95%;
+
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .analysisList >ul
+    {
+        list-style-type: square;
+
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
 
     .analysisImage
     {
@@ -673,3 +695,10 @@
     }
 
 /* END OF GENERIC LINKS AND BUTTONS STYLE */
+
+/* START OF QUICK TEXT FORMATTING */
+    .yellowText
+    {
+        color: #ffd966;
+    }
+/* END OF QUICK TEXT FORMATTING */
