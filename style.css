@@ -10,6 +10,14 @@
     src: url(Fonts/Roboto,Roboto_Mono,Silkscreen/Roboto_Mono/static/RobotoMono-Bold.ttf);
     font-family: "Roboto Mono";
 }
+@font-face {
+    src: url(Fonts/Jersey_20/Jersey20-Regular.ttf);
+    font-family: Jersey-20;
+}
+@font-face {
+    src: url(Fonts/Jersey_25/Jersey25-Regular.ttf);
+    font-family: Jersey-25;
+}
 
 @media screen and (prefers-reduced-motion: reduce){
     html{
