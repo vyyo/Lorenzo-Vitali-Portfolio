@@ -336,6 +336,36 @@
         text-align: center;
         background-color: rgba(34,32,52,0.8);
     }
+    .analysisText >h1
+    {
+        /*border: #dbdb29;
+        border-width: 3px;
+        border-style: solid;*/
+
+        font-size: 6vh;
+        color: #ffd966;
+
+        justify-self: center;
+        width: 95%;
+
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .analysisText >p
+    {
+        /*border: #dbdb29;
+        border-width: 3px;
+        border-style: solid;*/
+
+        color: white;
+
+        justify-self: center;
+        width: 95%;
+
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
 
     .analysisImage
     {
