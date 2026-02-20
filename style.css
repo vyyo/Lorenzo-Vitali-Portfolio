@@ -456,11 +456,14 @@
 
     .downloadNav
     {
-        /*border: #29a022;
+        border: #29a022;
         border-width: 3px;
-        border-style: solid;*/
+        border-style: solid;
         width: 20%;
         max-width: 20%;
+
+        padding-top: 0.5%;
+        padding-bottom: 0.5%;
 
         align-content: center;
         text-align: center;
@@ -468,7 +471,7 @@
     }
     .downloadNav:hover
     {
-        background-color: #222034;
+        background-color: #47436D;
         color: #ffd966;
     }
     .downloadNav:active
@@ -481,8 +484,10 @@
         /*border: #29a022;
         border-width: 3px;
         border-style: solid;*/
+
         display: block;
-        padding: 2% 0% 2% 0%;
+        max-height: 100%;
+        align-content: center;
     }
 
     .downloadButton
@@ -494,6 +499,9 @@
         background-color: #41247d;
         width: 50%;
         max-width: 50%;
+
+        padding-top: 0.5%;
+        padding-bottom: 0.5%;
 
         align-content: center;
         text-align: center;
@@ -514,7 +522,9 @@
         border-width: 3px;
         border-style: solid;*/
         display: block;
-        padding: 2% 0% 2% 0%;
+        height: 100%;
+        align-content: center;
+        padding: 0%,0%,0%,0%;
     }
 
 /* END OF DOWNLOAD STYLE */
