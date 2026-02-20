@@ -673,19 +673,3 @@
     }
 
 /* END OF GENERIC LINKS AND BUTTONS STYLE */
-
-
-
-p.username{
-    font-weight: bold;
-}
-
-em{
-    color: hsl(280, 31%, 42%);
-    font-style: normal;
-}
-
-strong{
-    color: #0000ff;
-    font-style: italic;
-}
