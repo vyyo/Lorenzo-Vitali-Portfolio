@@ -261,17 +261,25 @@
         flex-wrap: nowrap;
 
         flex-direction: row;
-        align-items: center;
-        gap: 2.5%;
+        align-items:center;
+        gap: 1%;
 
         font-size: 4vh;
     }
+    
     .statsText
     {
         /*border: #29a022;
         border-width: 3px;
         border-style: solid;*/
-        max-width: 21.25%;
+        width: 23.5%;
+        max-width: 23.5%;
+
+        padding-top: 0.5%;
+        padding-bottom: 0.5%;
+
+        align-self: stretch;
+        align-content: center;
 
         text-align: center;
         background-color: rgba(34,32,52,0.8);
