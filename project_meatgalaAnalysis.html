@@ -58,7 +58,7 @@
                 <div class="analysisText" style="max-width: 100%; width: 100%;">
                     <h1>Foreword</h1>
                     <p>
-                        The main goal with Meat Gala was to design a game that humorously conveyed “l’ appel du vide”: an irrational urge 
+                        The main goal with mEat Gala was to design a game that humorously conveyed “l’ appel du vide”: an irrational urge 
                         to engage in self-destructive behavior. To recreate the feeling, the game meddles with the player’s input. 
                         As one of two designers and the project’s programmer, I’ve designed and coded these aspects of the game:
                     </p>
@@ -190,15 +190,19 @@
             <div class="flexBreak"></div>
 
             <div class = "analysis">
-                <div class="analysisImageBoxRow">
-                    <div class="analysisImage">
-                        <img src="Images/Projects/MeatGala/MG_ControlsEating_a.gif"/>
+                <div class="analysisImageBoxColumn" style="align-items: center;">
+                    <div class="analysisImageBoxRow" style="max-width: 100%; width: 100%;">
+                        <div class="analysisImage">
+                            <img src="Images/Projects/MeatGala/MG_ControlsEating_a.gif"/>
+                        </div>
+                        <div class="analysisImage">
+                            <img src="Images/Projects/MeatGala/MG_ControlsEating_b.gif"/>
+                        </div>
                     </div>
-                    <div class="analysisImage">
-                        <img src="Images/Projects/MeatGala/MG_ControlsEating_b.gif"/>
-                    </div>
-                    <div class="analysisImage">
-                        <img src="Images/Projects/MeatGala/MG_ControlsEating_c.gif"/>
+                    <div class="analysisImageBoxRow">
+                        <div class="analysisImage">
+                            <img src="Images/Projects/MeatGala/MG_ControlsEating_c.gif"/>
+                        </div>
                     </div>
                 </div>
                 <div class="analysisText">
@@ -231,35 +235,29 @@
             <div class="flexBreak"></div>
 
             <div class = "analysis">
-                <div class="analysisText" style="max-width: 100%; width: 100%;">
-                    <h1>Player Combat</h1>
-                    <p>
-                        The <span class="yellowText">player’s moves</span> are reminiscent of a <span class="yellowText">hamster’s behavior</span>: 
-                        <u>self-destructive attacks, frail resources, incentives to cannibalism and reproduction</u>
-                    </p>
-                </div>
-            </div>
-            
-            <div class="flexBreak"></div>
-
-            <div class = "analysis">
                 <div class="analysisText">
-                    <h1>Combat: King</h1>
+                    <h1>Ladies/Crowd</h1>
                     <p>
-                        The king can:
+                        Each time the <span class="yellowText">ladies</span> seated in front of the player <span class="yellowText">catch</span> them 
+                        <span class="yellowText">eating</span>, they <span class="yellowText">call</span> the <span class="yellowText">crowd</span> 
+                        closer, <u>creating a sense of judgement and impending (social) doom</u>. 
+                        Their <span class="yellowText">movement logic</span> aims to <span class="yellowText">create</span> a sense of 
+                        <span class="yellowText">unpredictability</span> and <span class="yellowText">tension</span>:
                         <div class="analysisList">
                             <ul>
                                 <li>
-                                    <span class="yellowText">Attack</span>: light pierce damage
+                                    The <span class="yellowText">longer</span> they <span class="yellowText">look</span> to the 
+                                    <span class="yellowText">side</span>, the <span class="yellowText">more likely</span> 
+                                    they are to <span class="yellowText">chat</span>
                                 </li>
                                 <li>
-                                    <span class="yellowText">Cannibalism</span>: <span class="yellowText">eats</span> a 
-                                    <span class="yellowText">subject</span>. <span class="yellowText">Heals</span> equal to subject hp
+                                    When <span class="yellowText">chatting</span>, they can <span class="yellowText">either</span> look to the 
+                                    <span class="yellowText">side</span> or <span class="yellowText">forward</span> 
+                                    (<u>likelier over time</u>)
                                 </li>
                                 <li>
-                                    <span class="yellowText">Breed</span>: if the breed bar is full,<span class="yellowText">births</span> 4-12 
-                                    <span class="yellowText">subjects</span>. All subjects on the field have a 
-                                    <span class="yellowText">50% death chance</span>
+                                    Once they <span class="yellowText">look at you</span> (forward), 
+                                    the <span class="yellowText">movement logic resets</span>
                                 </li>
                             </ul>
                         </div>
@@ -267,73 +265,7 @@
                 </div>
                 <div class="analysisImageBoxRow">
                     <div class="analysisImage">
-                        <img src="Images/Projects/LLTHK/LLTHK_CombatKing.gif"/>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="flexBreak"></div>
-
-            <div class = "analysis">
-                <div class="analysisImageBoxRow">
-                    <div class="analysisImage">
-                        <img src="Images/Projects/LLTHK/LLTHK_CombatSubjects1.gif"/>
-                    </div>
-                </div>
-                <div class="analysisText">
-                    <h1>Combat: Subjects 1</h1>
-                    <p>
-                        <div class="analysisList">
-                            <ul>
-                                <li>
-                                    At the <span class="yellowText">start of a turn</span>, each <span class="yellowText">empty lane</span> is 
-                                    <span class="yellowText">filled</span> by a new subject
-                                </li>
-                                <li>
-                                    <span class="yellowText">Filling</span> a lane <span class="yellowText">reduces subjects</span> by 1
-                                </li>
-                                <li>
-                                    <span class="yellowText">Subjects</span> can only be <span class="yellowText">increased</span> by using 
-                                    <span class="yellowText">Breed</span>
-                                </li>
-                                <li>
-                                    <span class="yellowText">Subjects</span> start out with 1 hp, 0 attack and 0 defense
-                                </li>
-                            </ul>
-                        </div>
-                    </p>
-                </div>
-            </div>
-            
-            <div class="flexBreak"></div>
-
-            <div class = "analysis">
-                <div class="analysisText">
-                    <h1>Combat: Subjects 2</h1>
-                    <p>
-                        Subjects can:
-                        <div class="analysisList">
-                            <ul>
-                                <li>
-                                    <span class="yellowText">Inject</span>: attack after getting injected, inflicting a variety of 
-                                    <span class="yellowText">bonus damages</span> and <span class="yellowText">status effects</span>. 
-                                    <span class="yellowText">Take 1 damage</span> after attacking
-                                </li>
-                                <li>
-                                    <span class="yellowText">Cannibalism</span>: <span class="yellowText">eat</span> up to 9 
-                                    <span class="yellowText">subjects</span>, <span class="yellowText">increasing hp</span> and 
-                                    <span class="yellowText">attack</span> by 1 per subject
-                                </li>
-                                <li>
-                                    <span class="yellowText">Guard</span>: passes the turn to the next subject
-                                </li>
-                            </ul>
-                        </div>
-                    </p>
-                </div>
-                <div class="analysisImageBoxRow">
-                    <div class="analysisImage">
-                        <img src="Images/Projects/LLTHK/LLTHK_CombatSubjects2.gif"/>
+                        <img src="Images/Projects/MeatGala/MG_LadiesCrowd.gif"/>
                     </div>
                 </div>
             </div>
@@ -343,61 +275,26 @@
             <div class = "analysis">
                 <div class="analysisImageBoxColumn">
                     <div class="analysisImage">
-                        <img src="Images/Projects/LLTHK/LLTHK_CombatInject.gif"/>
+                        <img src="Images/Projects/MeatGala/MG_PrototypingTasks_a.png"/>
+                    </div>
+                    <div class="analysisImage">
+                        <img src="Images/Projects/MeatGala/MG_PrototypingTasks_b.png"/>
                     </div>
                 </div>
-                <div class="analysisText">
-                    <h1>Combat: Inject</h1>
-                    <p>
-                        The subject gets injected with one of four experimental drugs:
-                        <div class="analysisList">
-                            <ul>
-                                <li>
-                                    <span class="yellowText">Flammable</span>: +1 attack, inflicts flammable status
-                                </li>
-                                <li>
-                                    <span class="yellowText">Rabies</span>: +5 attack
-                                </li>
-                                <li>
-                                    <span class="yellowText">Virus</span>: +2 attack, inflicts virus status (1 damage per turn)
-                                </li>
-                                <li>
-                                    <span class="yellowText">Static</span>: +2 attack, inflicts static status, 6 pierce damage on a flammable enemy
-                                </li>
-                            </ul>
-                        </div>
-                    </p>
-                </div>
-            </div>
-
-            <div class="flexBreak"></div>
-
-            <div class = "analysis">
                 <div class="analysisText">
                     <h1>Prototyping Tasks</h1>
                     <p>
                         <div class="analysisList">
                             <ul>
                                 <li>
-                                    Programming (GDScript)
+                                    Programming (C#)
                                 </li>
                                 <li>
-                                    Blockout
-                                </li>
-                                <li>
-                                    Environment art
+                                    Art (foods and UI)
                                 </li>
                             </ul>
                         </div>
                     </p>
-                </div>
-                <div class="analysisImageBoxColumn">
-                    <div class="analysisImage">
-                        <img src="Images/Projects/LLTHK/LLTHK_Prototyping_a.png"/>
-                    </div>
-                    <div class="analysisImage">
-                        <img src="Images/Projects/LLTHK/LLTHK_Prototyping_b.png"/>
-                    </div>
                 </div>
             </div>
         </div>
