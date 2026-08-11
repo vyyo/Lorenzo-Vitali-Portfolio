@@ -165,14 +165,16 @@
                         <div class="analysisList">
                             <ul>
                                 <li>
-                                    Each enemy <span class="yellowText">targets specific lanes</span>
+                                    If left <span class="yellowText">unattended</span>, they <span class="yellowText">automatically</span> try 
+                                    <span class="yellowText">reaching</span> for <span class="yellowText">food</span>
                                 </li>
                                 <li>
-                                    Enemies <span class="yellowText">target the king</span> only when 
-                                    their target lanes <span class="yellowText">have no subjects</span>
+                                    Once they <span class="yellowText">touch</span> any <span class="yellowText">food</span>, they 
+                                    <span class="yellowText">won’t move</span> until it’s been <span class="yellowText">fully eaten</span>
                                 </li>
                                 <li>
-                                    <span class="yellowText">Hamsters</span> can attack <span class="yellowText">every lane</span>
+                                    When the stomach is <span class="yellowText">less</span> than <span class="yellowText">65% full</span>, 
+                                    hand <span class="yellowText">controls</span> are <span class="yellowText">inverted</span>
                                 </li>
                             </ul>
                         </div>
@@ -180,7 +182,7 @@
                 </div>
                 <div class="analysisImageBoxRow">
                     <div class="analysisImage">
-                        <img src="Images/Projects/LLTHK/LLTHK_CombatLanes.png"/>
+                        <img src="Images/Projects/MeatGala/MG_ControlsHands.gif"/>
                     </div>
                 </div>
             </div>
@@ -190,32 +192,35 @@
             <div class = "analysis">
                 <div class="analysisImageBoxRow">
                     <div class="analysisImage">
-                        <img src="Images/Projects/LLTHK/LLTHK_CombatEnemies.gif"/>
+                        <img src="Images/Projects/MeatGala/MG_ControlsEating_a.gif"/>
+                    </div>
+                    <div class="analysisImage">
+                        <img src="Images/Projects/MeatGala/MG_ControlsEating_b.gif"/>
+                    </div>
+                    <div class="analysisImage">
+                        <img src="Images/Projects/MeatGala/MG_ControlsEating_c.gif"/>
                     </div>
                 </div>
                 <div class="analysisText">
-                    <h1>Combat: Enemies</h1>
+                    <h1>Controls: Eating</h1>
                     <p>
-                        Enemy target/attack logic:
+                        Eating food is the only way of <span class="yellowText">refilling</span> the <span class="yellowText">stomach</span> and 
+                        <span class="yellowText">completing</span> a <span class="yellowText">course</span>. 
+                        Eating <span class="yellowText">controls</span> are meant to <span class="yellowText">mimic</span> the experience of 
+                        <span class="yellowText">stuffing yourself</span> full:
                         <div class="analysisList">
                             <ul>
                                 <li>
-                                    <span class="yellowText">Base</span>: parallel lane first, adjacent lane(s) second
+                                    Once the <span class="yellowText">hands touch</span> a food, <span class="yellowText">eating starts</span>
                                 </li>
                                 <li>
-                                    <span class="yellowText">Aoe</span>: parallel lane and all adjacent lanes, simultaneously
+                                    <span class="yellowText">Mashing</span> the displayed input gradually 
+                                    <span class="yellowText">lowers</span> the food’s <span class="yellowText">resistance</span>
                                 </li>
                                 <li>
-                                    <span class="yellowText">Heavy</span>: lane with the highest hp subject
-                                </li>
-                                <li>
-                                    <span class="yellowText">Sniper</span>: always targets the king
-                                </li>
-                                <li>
-                                    <span class="yellowText">Tank</span>: same as Base (stronger)
-                                </li>
-                                <li>
-                                    <span class="yellowText">Swapper</span>: swaps lanes with an enemy, then same as base
+                                    <span class="yellowText">Depleting</span> the <span class="yellowText">resistance</span> 
+                                    results in <span class="yellowText">eating</span> the food, 
+                                    <span class="yellowText">freeing</span> hand <span class="yellowText">movement</span>
                                 </li>
                             </ul>
                         </div>
