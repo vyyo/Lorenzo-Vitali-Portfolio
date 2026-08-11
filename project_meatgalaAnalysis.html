@@ -58,9 +58,9 @@
                 <div class="analysisText" style="max-width: 100%; width: 100%;">
                     <h1>Foreword</h1>
                     <p>
-                        The main goal with Long Live The Hamster King, was to focus on designing a combat system, that could 
-                        truly make the player feel like they were controlling a horde of hamsters. As one of two designers and 
-                        the project’s programmer, I’ve designed and coded these aspects of the game:
+                        The main goal with Meat Gala was to design a game that humorously conveyed “l’ appel du vide”: an irrational urge 
+                        to engage in self-destructive behavior. To recreate the feeling, the game meddles with the player’s input. 
+                        As one of two designers and the project’s programmer, I’ve designed and coded these aspects of the game:
                     </p>
                 </div>
             </div>
@@ -74,20 +74,23 @@
                         <div class="analysisList">
                             <ul>
                                 <li>
-                                    <span class="yellowText">Conflict</span>: <u>resource (subject) management and move planning</u>
+                                    <span class="yellowText">Conflict</span>: <u>mastering uncomfortable controls, timing</u>
                                 </li>
                                 <li>
-                                    <span class="yellowText">Goal</span>: escaping all the rooms
+                                    <span class="yellowText">Goal</span>: eating all courses
                                 </li>
                                 <li>
-                                    Fighting scientists is required to reach each exit
+                                    The player’s <span class="yellowText">hands automatically</span> try 
+                                    <span class="yellowText">reaching</span> for <span class="yellowText">food</span>
                                 </li>
                                 <li>
-                                    Most <span class="yellowText">moves deplete</span> the <span class="yellowText">subjects</span> supply
+                                    If the <span class="yellowText">ladies catch</span> the player 
+                                    <span class="yellowText">eating</span>, the <span class="yellowText">crowd closes in</span>
                                 </li>
                                 <li>
-                                    <span class="yellowText">Without subjects</span>, the king is 
-                                    <span class="yellowText">exposed</span> to attacks and might die (game over)
+                                    The <span class="yellowText">crowd</span> is <span class="yellowText">too close</span>/the 
+                                    <span class="yellowText">stomach</span> fully <span class="yellowText">empties</span> 
+                                    over time = <span class="yellowText">game over</span>
                                 </li>
                             </ul>
                         </div>
@@ -95,7 +98,7 @@
                 </div>
                 <div class="analysisImageBoxRow">
                     <div class="analysisImage">
-                        <img src="Images/Projects/LLTHK/LLTHK_Core.png"/>
+                        <img src="Images/Projects/MeatGala/MG_Core.gif"/>
                     </div>
                 </div>
             </div>
@@ -104,24 +107,45 @@
 
             <div class = "analysis">
                 <div class="analysisImageBoxRow">
-                    <div class="analysisImage">
-                        <img src="Images/Projects/LLTHK/LLTHK_CombatOrder.gif"/>
+                    <div class="analysisImageBoxColumn">
+                        <div class="analysisImage">
+                            <img src="Images/Projects/MeatGala/MG_CoursesFood_a.gif"/>
+                        </div>
+                        <div class="analysisImage">
+                            <img src="Images/Projects/MeatGala/MG_CoursesFood_c.gif"/>
+                        </div>
+                    </div>
+                    <div class="analysisImageBoxColumn">
+                        <div class="analysisImage">
+                            <img src="Images/Projects/MeatGala/MG_CoursesFood_b.gif"/>
+                        </div>
+                        <div class="analysisImage">
+                            <img src="Images/Projects/MeatGala/MG_CoursesFood_d.gif"/>
+                        </div>
                     </div>
                 </div>
                 <div class="analysisText">
-                    <h1>Combat: Order</h1>
+                    <h1>Courses/Food</h1>
                     <p>
+                        A course is a <u>randomly generated and positioned set of foods</u>. The course is <span class="yellowText">complete</span> when 
+                        <span class="yellowText">all</span> of its <span class="yellowText">food</span> is <span class="yellowText">eaten</span>. 
+                        Each food has a set of <span class="yellowText">custom parameters</span>:
                         <div class="analysisList">
                             <ul>
                                 <li>
-                                    The player either moves the <span class="yellowText">king</span> or all <span class="yellowText">subjects</span>
+                                    <span class="yellowText">Course</span>: the course it can appear in
                                 </li>
                                 <li>
-                                    <span class="yellowText">Hamsters</span> go first, <span class="yellowText">enemies</span> go 
-                                    <span class="yellowText">last</span>
+                                    <span class="yellowText">Shape</span>: the size of the food’s hitbox
                                 </li>
                                 <li>
-                                    <span class="yellowText">Lane order</span>: center, top, bottom
+                                    <span class="yellowText">Value</span>: how much it refills the stomach, when eaten
+                                </li>
+                                <li>
+                                    <span class="yellowText">Input</span>: the input type required to eat it
+                                </li>
+                                <li>
+                                    <span class="yellowText">Resistance</span>: how many times the input has to be repeated
                                 </li>
                             </ul>
                         </div>
