@@ -58,9 +58,10 @@
                 <div class="analysisText" style="max-width: 100%; width: 100%;">
                     <h1>Foreword</h1>
                     <p>
-                        The main goal with Long Live The Hamster King, was to focus on designing a combat system, that could 
-                        truly make the player feel like they were controlling a horde of hamsters. As one of two designers and 
-                        the project’s programmer, I’ve designed and coded these aspects of the game:
+                        The main goal with Brock Down was to design a game that revolved around its fail-state. 
+                        This was also a study on “gamified dialogue”, that impacted gameplay and in-game resources. 
+                        The result is a dual-genre game, with its halves communicating in-between failures. 
+                        As a solo dev, I focused on these aspects of Brock Down:
                     </p>
                 </div>
             </div>
@@ -74,20 +75,22 @@
                         <div class="analysisList">
                             <ul>
                                 <li>
-                                    <span class="yellowText">Conflict</span>: <u>resource (subject) management and move planning</u>
+                                    <span class="yellowText">Conflict</span>: <u>neutralizing/preventing breakdowns while aiding chore completion</u>
                                 </li>
                                 <li>
-                                    <span class="yellowText">Goal</span>: escaping all the rooms
+                                    Each <span class="yellowText">chore</span> requires a <span class="yellowText">specific emotion</span> 
+                                    to be <span class="yellowText">completed</span>
                                 </li>
                                 <li>
-                                    Fighting scientists is required to reach each exit
+                                    <span class="yellowText">Dialogues modify</span> the amount of <span class="yellowText">stored emotions</span>
                                 </li>
                                 <li>
-                                    Most <span class="yellowText">moves deplete</span> the <span class="yellowText">subjects</span> supply
+                                    If Brock <span class="yellowText">exceeds</span> his <span class="yellowText">emotional capacity</span>, he 
+                                    has a <span class="yellowText">breakdown</span> (<u>near-fail state</u>)
                                 </li>
                                 <li>
-                                    <span class="yellowText">Without subjects</span>, the king is 
-                                    <span class="yellowText">exposed</span> to attacks and might die (game over)
+                                    <span class="yellowText">Neutralizing breakdowns</span> through shooter segments 
+                                    <span class="yellowText">lowers</span> stored <span class="yellowText">emotions</span>
                                 </li>
                             </ul>
                         </div>
@@ -95,7 +98,7 @@
                 </div>
                 <div class="analysisImageBoxRow">
                     <div class="analysisImage">
-                        <img src="Images/Projects/LLTHK/LLTHK_Core.png"/>
+                        <img src="Images/Projects/BrockDown/BD_Core.png"/>
                     </div>
                 </div>
             </div>
@@ -105,23 +108,23 @@
             <div class = "analysis">
                 <div class="analysisImageBoxRow">
                     <div class="analysisImage">
-                        <img src="Images/Projects/LLTHK/LLTHK_CombatOrder.gif"/>
+                        <img src="Images/Projects/BrockDown/BD_RPG.png"/>
                     </div>
                 </div>
                 <div class="analysisText">
-                    <h1>Combat: Order</h1>
+                    <h1>RPG</h1>
                     <p>
+                        The game is a set of walking-sim RPG scenes, containing chores completed by:
                         <div class="analysisList">
                             <ul>
                                 <li>
-                                    The player either moves the <span class="yellowText">king</span> or all <span class="yellowText">subjects</span>
+                                    Walking around
                                 </li>
                                 <li>
-                                    <span class="yellowText">Hamsters</span> go first, <span class="yellowText">enemies</span> go 
-                                    <span class="yellowText">last</span>
+                                    Interacting with objects
                                 </li>
                                 <li>
-                                    <span class="yellowText">Lane order</span>: center, top, bottom
+                                    Talking to NPCs (linear and branching dialogues)
                                 </li>
                             </ul>
                         </div>
@@ -133,67 +136,37 @@
 
             <div class = "analysis">
                 <div class="analysisText">
-                    <h1>Combat: Lanes</h1>
+                    <h1>RPG: Emotions</h1>
                     <p>
-                        3-lane-combat dynamics:
+                        An <span class="yellowText">emotion</span> is <span class="yellowText">dominant</span> when its 
+                        <span class="yellowText">stored amount</span> is the <span class="yellowText">highest</span>. 
+                        Each dominant emotion <span class="yellowText">unveils</span> unique <span class="yellowText">interactions</span> 
+                        and <span class="yellowText">dialogues</span>, <u>necessary for chore completion</u>:
                         <div class="analysisList">
                             <ul>
                                 <li>
-                                    Each enemy <span class="yellowText">targets specific lanes</span>
+                                    <span class="yellowText">Rage</span>: brute force; violent replies 
                                 </li>
                                 <li>
-                                    Enemies <span class="yellowText">target the king</span> only when 
-                                    their target lanes <span class="yellowText">have no subjects</span>
+                                    <span class="yellowText">Fear</span>: higher walk speed; humble replies 
                                 </li>
                                 <li>
-                                    <span class="yellowText">Hamsters</span> can attack <span class="yellowText">every lane</span>
+                                    <span class="yellowText">Sadness</span>: water generation (tears); pitiable replies 
+                                </li>
+                                <li>
+                                    <span class="yellowText">Joy</span>: pain immunity; empathic replies 
                                 </li>
                             </ul>
                         </div>
                     </p>
                 </div>
-                <div class="analysisImageBoxRow">
+                <div class="analysisImageBoxColumn">
                     <div class="analysisImage">
-                        <img src="Images/Projects/LLTHK/LLTHK_CombatLanes.png"/>
+                        <img src="Images/Projects/BrockDown/BD_RPGEmotions_a.png"/>
                     </div>
-                </div>
-            </div>
-            
-            <div class="flexBreak"></div>
-
-            <div class = "analysis">
-                <div class="analysisImageBoxRow">
                     <div class="analysisImage">
-                        <img src="Images/Projects/LLTHK/LLTHK_CombatEnemies.gif"/>
+                        <img src="Images/Projects/BrockDown/BD_RPGEmotions_b.gif"/>
                     </div>
-                </div>
-                <div class="analysisText">
-                    <h1>Combat: Enemies</h1>
-                    <p>
-                        Enemy target/attack logic:
-                        <div class="analysisList">
-                            <ul>
-                                <li>
-                                    <span class="yellowText">Base</span>: parallel lane first, adjacent lane(s) second
-                                </li>
-                                <li>
-                                    <span class="yellowText">Aoe</span>: parallel lane and all adjacent lanes, simultaneously
-                                </li>
-                                <li>
-                                    <span class="yellowText">Heavy</span>: lane with the highest hp subject
-                                </li>
-                                <li>
-                                    <span class="yellowText">Sniper</span>: always targets the king
-                                </li>
-                                <li>
-                                    <span class="yellowText">Tank</span>: same as Base (stronger)
-                                </li>
-                                <li>
-                                    <span class="yellowText">Swapper</span>: swaps lanes with an enemy, then same as base
-                                </li>
-                            </ul>
-                        </div>
-                    </p>
                 </div>
             </div>
             
@@ -201,34 +174,75 @@
 
             <div class = "analysis">
                 <div class="analysisText" style="max-width: 100%; width: 100%;">
-                    <h1>Player Combat</h1>
+                    <h1>Breakdown</h1>
                     <p>
-                        The <span class="yellowText">player’s moves</span> are reminiscent of a <span class="yellowText">hamster’s behavior</span>: 
-                        <u>self-destructive attacks, frail resources, incentives to cannibalism and reproduction</u>
+                        Breakdowns are <span class="yellowText">near-fail states</span>, entered when the <span class="yellowText">sum</span> of 
+                        Brock’s <span class="yellowText">emotions surpasses</span> his <span class="yellowText">emotional capacity</span>. 
+                        They give the player a chance to <u>simultaneously avoid a game over and lower stored emotions</u>.
+                        <br/><br/>
+                        Breakdowns effectively become the game’s <span class="yellowText">resource management tool</span>, as they are the only 
+                        way to <span class="yellowText">reliably change</span> the <span class="yellowText">dominant</span> emotion
                     </p>
                 </div>
             </div>
-            
+
+            <div class="flexBreak"></div>
+
+            <div class = "analysis">
+                <div class="analysisImageBoxRow">
+                    <div class="analysisImage">
+                        <img src="Images/Projects/BrockDown/BD_Shooter.gif"/>
+                    </div>
+                </div>
+                <div class="analysisText">
+                    <h1>Shooter</h1>
+                    <p>
+                        Entering a breakdown starts a twin stick shooter segment:
+                        <div class="analysisList">
+                            <ul>
+                                <li>
+                                    <span class="yellowText">Different</span> types of <span class="yellowText">EmoClots</span> 
+                                    spawn, <u>proportionally to stored emotion amounts</u>
+                                </li>
+                                <li>
+                                    <span class="yellowText">Eliminating</span> an EmoClot <span class="yellowText">lowers</span> 
+                                    the corresponding <span class="yellowText">emotion</span>
+                                </li>
+                                <li>
+                                    Not lowering the emotions below capacity in time/reaching 0 HP = game over
+                                </li>
+                                <li>
+                                    Breakdowns become <span class="yellowText">progressively shorter</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </p>
+                </div>
+            </div>
+
             <div class="flexBreak"></div>
 
             <div class = "analysis">
                 <div class="analysisText">
-                    <h1>Combat: King</h1>
+                    <h1>Shooter: EmoClots</h1>
                     <p>
-                        The king can:
+                        Each <span class="yellowText">emotion</span> corresponds to an <span class="yellowText">EmoClot</span> enemy 
+                        <span class="yellowText">type</span>. EmoClots are <span class="yellowText">damaged</span> by 
+                        <span class="yellowText">opposite-type</span> bullets, and <span class="yellowText">powered up</span> by 
+                        <span class="yellowText">same-type</span> bullets. Each enemy is unique:
                         <div class="analysisList">
                             <ul>
                                 <li>
-                                    <span class="yellowText">Attack</span>: light pierce damage
+                                    <span class="yellowText">Rage</span>: red; opposite: fear; chases slowly; punches frontally
                                 </li>
                                 <li>
-                                    <span class="yellowText">Cannibalism</span>: <span class="yellowText">eats</span> a 
-                                    <span class="yellowText">subject</span>. <span class="yellowText">Heals</span> equal to subject hp
+                                    <span class="yellowText">Fear</span>: green; opposite: rage; runs away; leaves a tray of toxic, retarding gas
                                 </li>
                                 <li>
-                                    <span class="yellowText">Breed</span>: if the breed bar is full,<span class="yellowText">births</span> 4-12 
-                                    <span class="yellowText">subjects</span>. All subjects on the field have a 
-                                    <span class="yellowText">50% death chance</span>
+                                    <span class="yellowText">Sadness</span>: blue; opposite: joy; keeps a distance; shoots tears
+                                </li>
+                                <li>
+                                    <span class="yellowText">Joy</span>: yellow; opposite: sadness; moves to a random spot; explodes on arrival
                                 </li>
                             </ul>
                         </div>
@@ -236,7 +250,7 @@
                 </div>
                 <div class="analysisImageBoxRow">
                     <div class="analysisImage">
-                        <img src="Images/Projects/LLTHK/LLTHK_CombatKing.gif"/>
+                        <img src="Images/Projects/BrockDown/BD_ShooterEmoClots.gif"/>
                     </div>
                 </div>
             </div>
@@ -246,27 +260,32 @@
             <div class = "analysis">
                 <div class="analysisImageBoxRow">
                     <div class="analysisImage">
-                        <img src="Images/Projects/LLTHK/LLTHK_CombatSubjects1.gif"/>
+                        <img src="Images/Projects/BrockDown/BD_ShooterWeapons_a.gif"/>
+                    </div>
+                    <div class="analysisImage">
+                        <img src="Images/Projects/BrockDown/BD_ShooterWeapons_b.png"/>
                     </div>
                 </div>
                 <div class="analysisText">
-                    <h1>Combat: Subjects 1</h1>
+                    <h1>Shooter: Weapons</h1>
                     <p>
+                        Each <span class="yellowText">emotion</span> has its corresponding <span class="yellowText">weapon</span> and 
+                        <span class="yellowText">button</span>. To keep <span class="yellowText">inputs intuitive</span>, buttons 
+                        <span class="yellowText">east-west</span> and <span class="yellowText">north-south</span> are 
+                        <span class="yellowText">complementary</span> bullets. Each weapon is unique:
                         <div class="analysisList">
                             <ul>
                                 <li>
-                                    At the <span class="yellowText">start of a turn</span>, each <span class="yellowText">empty lane</span> is 
-                                    <span class="yellowText">filled</span> by a new subject
+                                    <span class="yellowText">Rage</span>: button east; opposite: fear; short range band-aid shotgun
                                 </li>
                                 <li>
-                                    <span class="yellowText">Filling</span> a lane <span class="yellowText">reduces subjects</span> by 1
+                                    <span class="yellowText">Fear</span>: button west; opposite: rage; AoE gas around the player
                                 </li>
                                 <li>
-                                    <span class="yellowText">Subjects</span> can only be <span class="yellowText">increased</span> by using 
-                                    <span class="yellowText">Breed</span>
+                                    <span class="yellowText">Sadness</span>: button south; opposite: joy; long-range, high-ratio pill projectiles
                                 </li>
                                 <li>
-                                    <span class="yellowText">Subjects</span> start out with 1 hp, 0 attack and 0 defense
+                                    <span class="yellowText">Joy</span>: button north; opposite: sadness; exploding firework missile
                                 </li>
                             </ul>
                         </div>
@@ -278,94 +297,18 @@
 
             <div class = "analysis">
                 <div class="analysisText">
-                    <h1>Combat: Subjects 2</h1>
+                    <h1>Prototyping</h1>
                     <p>
-                        Subjects can:
-                        <div class="analysisList">
-                            <ul>
-                                <li>
-                                    <span class="yellowText">Inject</span>: attack after getting injected, inflicting a variety of 
-                                    <span class="yellowText">bonus damages</span> and <span class="yellowText">status effects</span>. 
-                                    <span class="yellowText">Take 1 damage</span> after attacking
-                                </li>
-                                <li>
-                                    <span class="yellowText">Cannibalism</span>: <span class="yellowText">eat</span> up to 9 
-                                    <span class="yellowText">subjects</span>, <span class="yellowText">increasing hp</span> and 
-                                    <span class="yellowText">attack</span> by 1 per subject
-                                </li>
-                                <li>
-                                    <span class="yellowText">Guard</span>: passes the turn to the next subject
-                                </li>
-                            </ul>
-                        </div>
-                    </p>
-                </div>
-                <div class="analysisImageBoxRow">
-                    <div class="analysisImage">
-                        <img src="Images/Projects/LLTHK/LLTHK_CombatSubjects2.gif"/>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="flexBreak"></div>
-
-            <div class = "analysis">
-                <div class="analysisImageBoxColumn">
-                    <div class="analysisImage">
-                        <img src="Images/Projects/LLTHK/LLTHK_CombatInject.gif"/>
-                    </div>
-                </div>
-                <div class="analysisText">
-                    <h1>Combat: Inject</h1>
-                    <p>
-                        The subject gets injected with one of four experimental drugs:
-                        <div class="analysisList">
-                            <ul>
-                                <li>
-                                    <span class="yellowText">Flammable</span>: +1 attack, inflicts flammable status
-                                </li>
-                                <li>
-                                    <span class="yellowText">Rabies</span>: +5 attack
-                                </li>
-                                <li>
-                                    <span class="yellowText">Virus</span>: +2 attack, inflicts virus status (1 damage per turn)
-                                </li>
-                                <li>
-                                    <span class="yellowText">Static</span>: +2 attack, inflicts static status, 6 pierce damage on a flammable enemy
-                                </li>
-                            </ul>
-                        </div>
-                    </p>
-                </div>
-            </div>
-
-            <div class="flexBreak"></div>
-
-            <div class = "analysis">
-                <div class="analysisText">
-                    <h1>Prototyping Tasks</h1>
-                    <p>
-                        <div class="analysisList">
-                            <ul>
-                                <li>
-                                    Programming (GDScript)
-                                </li>
-                                <li>
-                                    Blockout
-                                </li>
-                                <li>
-                                    Environment art
-                                </li>
-                            </ul>
-                        </div>
+                        In order to grow accustomed to the Godot game engine, I made everything from scratch, 
+                        aside from the dialogue system (Dialogic plugin)
                     </p>
                 </div>
                 <div class="analysisImageBoxColumn">
                     <div class="analysisImage">
-                        <img src="Images/Projects/LLTHK/LLTHK_Prototyping_a.png"/>
+                        <img src="Images/Projects/BrockDown/BD_Prototyping_a.png"/>
                     </div>
                     <div class="analysisImage">
-                        <img src="Images/Projects/LLTHK/LLTHK_Prototyping_b.png"/>
+                        <img src="Images/Projects/BrockDown/BD_Prototyping_b.png"/>
                     </div>
                 </div>
             </div>
